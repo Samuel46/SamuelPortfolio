@@ -2139,8 +2139,9 @@
         <div class="row justify-content-center mt-5 pt-lg-5">
           <div class="col-lg-8">
             <form
-              action="http://themes.lucky-roo.com/berg-v3.3/html/contact/send_mail.php"
+              action="POST"
               method="post"
+              data-netlify= "true"
               id="form-contact"
             >
               <div class="row">
@@ -2213,6 +2214,18 @@
                     Send Message
                   </button>
                 </div>
+
+                
+                <div class="col-12">
+                  <div class="form-group">
+                    <!-- recaptu -->
+                    <div data-netlify-recaptcha="true">
+                    </div>
+                  </div>
+                  <!-- //.form-group -->
+                </div>
+
+                
                 <!-- //.col-12 -->
               </div>
               <!-- //.row -->
