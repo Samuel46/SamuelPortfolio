@@ -30,7 +30,9 @@
 
 /** BG Default */
 #home.home-bg-static {
-    background-image: url("../images/bg-home-1.jpg");
+    background-image: url("../images/SVG/home-v2-1.png");
+    background-position: center;
+    background-size: cover;
 }
 
 /** BG Parallax */
@@ -51,7 +53,7 @@
 
 /** BG Slideshow */
 #home.home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(1) {
-    background: url("../images/bg-home-1.jpg");
+    background: url("../images/SVG/cat-v2-5.png");
 }
 #home.home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(2) {
     background: url("../images/bg-home-2.jpg");
@@ -97,7 +99,7 @@
 */
 
 #strengths {
-    background-image: url("../images/bg-strengths.jpg");
+    background-image: url("../images/svg/home-v2-2.png");
 }
 
 
@@ -106,7 +108,7 @@
 */
 
 #references {
-    background-image: url("../images/bg-references.jpg");
+    background-image: url("../images/SVG/cat-v2-11.png");
 }
 
 
@@ -154,7 +156,7 @@
 */
 
 #milestones {
-    background-image: url("../images/bg-milestones.jpg");
+    background-image: url("../images/bg-strengths.jpg");
 }
 
 
