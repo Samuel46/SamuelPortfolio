@@ -28,9 +28,19 @@
     }
 }
 
+.nlogo{
+    width: 100px;
+    height: 100px;
+}
+
+.ittalic{
+    font-size: 17px;
+    font-style: italic;
+}
+
 /** BG Default */
 #home.home-bg-static {
-    background-image: url("../images/SVG/home-v2-1.png");
+    background-image: url("../images/3.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -42,13 +52,13 @@
 
 /** BG Slider */
 #home.home-bg-slider .flickity-slider > .carousel-cell:nth-child(1) {
-    background: url("../images/bg-home-1.jpg");
+    background: url("../images/3.jpg");
 }
 #home.home-bg-slider .flickity-slider > .carousel-cell:nth-child(2) {
-    background: url("../images/bg-home-2.jpg");
+    background: url("../images/homepage-19-slider-07.jpg");
 }
 #home.home-bg-slider .flickity-slider > .carousel-cell:nth-child(3) {
-    background: url("../images/bg-home-3.jpg");
+    background: url("../images/homepage-19-slider-04.jpg");
 }
 
 /** BG Slideshow */
@@ -99,7 +109,7 @@
 */
 
 #strengths {
-    background-image: url("../images/svg/home-v2-2.png");
+    background-image: url("../images/1.jpg");
 }
 
 
@@ -108,7 +118,7 @@
 */
 
 #references {
-    background-image: url("../images/SVG/cat-v2-11.png");
+    background-image: url("../images/2.jpg");
 }
 
 
@@ -151,12 +161,25 @@
 }
 
 
+.fa-quote-left:before {
+    content: "\f10d";
+  
+}
+.fa-qoute-left, .fa-quote-right{
+    margin-bottom: 30px !important;
+}
+
+.base-color {
+    color: deeppink;
+}
+
+
 /*
 * Section - Milestones
 */
 
 #milestones {
-    background-image: url("../images/bg-strengths.jpg");
+    background-image: url("../images/3.jpg");
 }
 
 
