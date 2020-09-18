@@ -15,6 +15,32 @@
 */
 /* bru effect */
 
+/* icon colour */
+
+.icon {
+  color: #c80a48;
+}
+
+.video {
+  object-fit: contain;
+  margin-left: 2px;
+  padding: 5px !important;
+  width: 100%;
+}
+.video__h2 {
+  text-align: center;
+}
+.video__p {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  font-size: 17px !important;
+}
+.video__color {
+  color: #c80a48;
+  font-weight: 900 !important;
+  font-size: 20px;
+  font-style: none !important;
+}
 #home {
   height: 100%;
   position: relative;
